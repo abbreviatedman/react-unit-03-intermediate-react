@@ -196,6 +196,7 @@ return (
 
 ### Bonus Challenges
 
-- Allow users to search for Pokémon by their ID as well as by their name.
 - Add additional details about the Pokémon, such as its type, abilities, and stats.
+- Add a message to inform users when the Pokémon is not found.
+- Set the pokemon to always show its front when you search for it. Currently, if you flip a pokemon to its back and then search for a new pokemon, the new pokemon will show its back. **This will take some rewriting of our solution**, since you'll want to make a change to the `isFront` state _not_ make a new API call but to instead make which image to show dependent on the `isFront` state. You'll thus need to save both images in some way, or save the whole pokemon you get back from the server.
 - Style the app to make it visually appealing.
