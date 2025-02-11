@@ -107,21 +107,21 @@ You can **either** do the above with an object, or with 1 state variable for eac
 ``` json
 [
   {
-    "question": "What is the capital of France?",
+    "text": "What is the capital of France?",
     "answer": "Paris"
   },
   {
-    "question": "What is 2 + 2?",
+    "text": "What is 2 + 2?",
     "answer": "4"
   },
   {
-    "question": "What color is the sky on a clear day?",
+    "text": "What color is the sky on a clear day?",
     "answer": "Blue"
   }
 ]
 ```
 
-- You can create a more full and real `questions-dev-mode.json` file later, when you're done with the assignment. For now, the simplicity of these questions and being able to know the answer will really help with testing, which is why it's our Dev Mode file.
+- You can create a more full and real `questions.json` file later, when you're done with the assignment. For now, the simplicity of these questions and answers will really help with testing, which is why it's our Dev Mode file.
 
 7. **Render `TriviaForm`**
 
